@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply hover:bg-pink-400 text-2xl cursor-pointer hover:text-white p-[4px] rounded-md;
+  }
+
+  .navbar:hover {
+    color: rgb(217, 41, 117);
+    transition: all 0.5;
+    font-weight: 500;
+    background-color: rgb(237, 244, 254);
+  }
+}
